@@ -114,7 +114,7 @@ Yongtao Ma (supervisor), **Hankai Liu**, Yunlei Zhang *et al.*
 - *2024.08*, mmWave Radar-based Multi-person Tracking and Identification, HHME 2024
 
 # 👨‍🏫 Teaching
-- *2025.Fall*, Computer Hardware Fundamentals
+- *COSC0069*, Computer Hardware Fundamentals
 
 # 🏆 Honors and Awards
 - *2025.05* Huawei Scholarship
