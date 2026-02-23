@@ -110,3 +110,11 @@
       transition: none;
     }
   }
+
+  body.modal-open {
+    overflow: hidden;
+  }
+  
+  html.modal-open {
+    overflow: hidden;
+  }
