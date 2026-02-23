@@ -4,10 +4,8 @@
     const title = document.getElementById("paperModalTitle");
     const venue = document.getElementById("paperModalVenue");
     const abs = document.getElementById("paperModalAbs");
-  
     if (!modal) return;
   
-    let isOpen = false;
     let lastFocus = null;
   
     function openModal(el) {
@@ -21,46 +19,30 @@
       modal.classList.add("is-open");
       modal.setAttribute("aria-hidden", "false");
       document.body.style.overflow = "hidden";
-      isOpen = true;
   
-      // Focus close button for accessibility
-      const closeBtn = modal.querySelector("[data-close]");
+      const closeBtn = modal.querySelector(".paper-modal__close");
       closeBtn && closeBtn.focus();
     }
   
     function closeModal() {
-      if (!isOpen) return;
-  
-      // start animation out
       modal.classList.remove("is-open");
       modal.setAttribute("aria-hidden", "true");
       document.body.style.overflow = "";
-      isOpen = false;
   
-      // wait for transition end then clear content
+      // 等动画结束再清空，避免“闪一下”
       window.setTimeout(() => {
         img.src = "";
         title.textContent = "";
         venue.textContent = "";
         abs.textContent = "";
         if (lastFocus && lastFocus.focus) lastFocus.focus();
-      }, 240); // match CSS transition duration
+      }, 280);
     }
   
     document.addEventListener("click", (e) => {
       const t = e.target;
-  
-      // open
-      if (t.classList && t.classList.contains("js-paper-modal")) {
-        openModal(t);
-        return;
-      }
-  
-      // close when clicking backdrop or close button
-      if (t.dataset && t.dataset.close) {
-        closeModal();
-        return;
-      }
+      if (t.classList && t.classList.contains("js-paper-modal")) openModal(t);
+      if (t.dataset && t.dataset.close) closeModal();
     });
   
     document.addEventListener("keydown", (e) => {
