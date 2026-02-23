@@ -39,7 +39,6 @@ My long-term research goal is to develop robust and scalable open-world percepti
 ## 🏃‍♀️ Open-Vocabulary Object Detection
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/hsadino.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 [Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](official link coming soon)
 
 **Weihao Cao**, Runqi Wang, Xiaoyue Duan *et al.*
