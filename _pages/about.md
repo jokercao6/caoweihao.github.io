@@ -22,17 +22,14 @@ I am a Master's student in Computer Science at the Beijing Key Laboratory of Tra
 School of Computer Science and Technology, Beijing Jiaotong University, 
 State Key Laboratory of Advanced Rail Autonomous Operation, China.
 
-I am a member of the research groups led by 
-[Prof. Liping Jing](https://faculty.bjtu.edu.cn/8249/) (景丽萍) and 
-[Prof. Runqi Wang](https://faculty.bjtu.edu.cn/10280/) (王润琪).
+My research focuses on **open-vocabulary object detection, continual learning, and prompt-based learning for vision-language models**. I am currently supervised by [Prof. Liping Jing](https://faculty.bjtu.edu.cn/8249/) and [Prof. Runqi Wang](https://faculty.bjtu.edu.cn/10280/).
 
-My current research interests include **open-vocabulary object detection, continual learning, and prompt-based learning for vision-language models**. 
-My long-term research goal is to develop robust and scalable open-world perception systems that can generalize across domains and incremental tasks.
+My long-term research goal is to develop robust and scalable open-world perception systems that generalize across domains and incremental learning settings. 🤝 If you are interested in my research, feel free to get in touch.
 
 <!-- 📢📢 <span style="color:red;">Our group is seeking research assistants to work on multiple projects related to **Post-quantum Cryptography Chip** and **Encrypted mmWave Sensing**. Drop me an email if you are interested. -->
 
 # 🔥 News
-- *2026.02*: Our paper entitled "Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection" was accepted by **CVPR (CCF-A)**.
+- *2026.02*: Our paper entitled "Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection" was accepted by <span style="color:red;"> **CVPR (CCF-A)**.
 
 
 # 📘 Selected Publications 
