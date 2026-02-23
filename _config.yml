@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Hankai Liu"
+title                    : "Weihao Cao"
 description              : # "None"
-repository               : "LIUHankai/LIUHankai.github.io"
+repository               : "jokercao6/caoweihao.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Hankai Liu (刘涵凯)"
+  name             : "Weihao Cao (曹威昊)"
   avatar           : "images/512x512.png"
-  bio              : "Lecturer 南开大学讲师"
-  location         : "Tianjin, China"
-  employer         : "Nankai University"
+  bio              : "Master's Student"
+  location         : "Beijing, China"
+  employer         : "Beijing Jiaotong University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=FlQRF88AAAAJ"
-  email            : "lhk [at] nankai.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Hankai-Liu"
+  email            : "24125316 [at] bjtu.edu.cn"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "LIUHankai"
+  github           : "jokercao6"
   google_plus      :
   keybase          :
   instagram        :
