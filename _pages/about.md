@@ -22,7 +22,7 @@ I am a Master's student in Computer Science at the Beijing Key Laboratory of Tra
 School of Computer Science and Technology, Beijing Jiaotong University, 
 State Key Laboratory of Advanced Rail Autonomous Operation, China.
 
-My research focuses on **open-vocabulary object detection, continual learning, and prompt-based learning for vision-language models**. I am currently supervised by [Prof. Liping Jing](https://faculty.bjtu.edu.cn/8249/) and [Prof. Runqi Wang](https://faculty.bjtu.edu.cn/10280/).
+My research focuses on **open-vocabulary object detection, continual learning, and prompt-based learning for vision-language models**, under the supervision of [Prof. Liping Jing](https://faculty.bjtu.edu.cn/8249/) and [Prof. Runqi Wang](https://faculty.bjtu.edu.cn/10280/).
 
 My long-term research goal is to develop robust and scalable open-world perception systems that generalize across domains and incremental learning settings. 🤝 If you are interested in my research, feel free to get in touch.
 
