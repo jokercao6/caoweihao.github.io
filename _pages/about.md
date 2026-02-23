@@ -37,17 +37,13 @@ My long-term research goal is to develop robust and scalable open-world percepti
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div>
 <!-- <img src='images/hsadino.png' alt="sym" width="100%"> -->
 <img
-  src="/assets/images/papers/hsa-dino_teaser.jpg"
+  src="images/hsadino.png"
   alt="HSA-DINO teaser"
   class="paper-thumb js-paper-modal"
-  data-full="/assets/images/papers/hsa-dino_teaser.jpg"
+  data-full="images/hsadino.png"
   data-title="HSA-DINO"
   data-venue="CVPR 2026 (Accepted)"
-  data-abstract="Open-vocabulary object detection (OVOD) enables models to detect any object category, including unseen ones. Benefiting from large-scale pre-training, existing OVOD methods achieve strong detection performance on general scenarios (e.g., OV-COCO) but suffer severe performance drops when transferred to downstream tasks with substantial domain shifts.
-This degradation stems from the scarcity and weak semantics of category labels in domain-specific task, as well as the inability of existing models to capture auxiliary semantics beyond coarse-grained category label.
-To address these issues, we propose HSA-DINO, a parameter-efficient semantic augmentation framework for enhancing open-vocabulary object detection. Specifically, we propose a multi-scale prompt bank that leverages image feature pyramids to capture hierarchical semantics and select domain-specific local semantic prompts, progressively enriching textual representations from coarse to fine-grained levels.
-Furthermore, we introduce a semantic-aware router that dynamically selects the appropriate semantic augmentation strategy during inference, thereby preventing parameter updates from degrading the generalization ability of the pre-trained OVOD model. We evaluate HSA-DINO on OV-COCO, several vertical domain datasets, and modified benchmark settings.
-The results show that HSA-DINO performs favorably against previous state-of-the-art methods, achieving a superior trade-off between domain adaptability and open-vocabulary generalization."
+  data-abstract="Open-vocabulary object detection (OVOD) enables models to detect any object category, including unseen ones. Benefiting from large-scale pre-training, existing OVOD methods achieve strong performance on general scenarios (e.g., OV-COCO) but suffer severe drops under substantial domain shifts. This degradation stems from scarce and weak label semantics in domain-specific tasks, and the inability to capture auxiliary semantics beyond coarse-grained category labels. To address these issues, we propose HSA-DINO, a parameter-efficient semantic augmentation framework. We introduce a multi-scale prompt bank to capture hierarchical semantics and enrich text representations from coarse to fine. We further propose a semantic-aware router to dynamically select augmentation strategies at inference, preserving generalization. Experiments on OV-COCO and multiple vertical domains show favorable performance and a strong trade-off between domain adaptability and open-vocabulary generalization."
 />
 </div></div>
 <div class='paper-box-text' markdown="1">
