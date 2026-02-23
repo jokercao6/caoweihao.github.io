@@ -38,7 +38,7 @@ My long-term research goal is to develop robust and scalable open-world percepti
 <!-- <img src='images/hsadino.png' alt="sym" width="100%"> -->
 <img
   src="images/hsadino.png"
-  alt="HSA-DINO teaser"
+  alt="HSA-DINO"
   class="paper-thumb js-paper-modal"
   data-full="images/hsadino.png"
   data-title="HSA-DINO"
