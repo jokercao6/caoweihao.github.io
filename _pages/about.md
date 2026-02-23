@@ -49,7 +49,7 @@ My long-term research goal is to develop robust and scalable open-world percepti
 <div class='paper-box-text' markdown="1">
 [Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection](official link coming soon)
 
-**Weihao Cao<sup>1</sup>**, Runqi Wang<sup>1</sup> , Xiaoyue Duan<sup>1</sup>, Ang Yang<sup>1</sup>, Liping Jing<sup>1</sup> *et al.*
+**Weihao Cao<sup>1</sup>**, Runqi Wang<sup>1</sup> , Xiaoyue Duan<sup>2</sup>, Ang Yang<sup>1</sup>, Liping Jing<sup>1</sup> *et al.*
 
 <sup>1</sup> Beijing Jiaotong University  
 <sup>2</sup> Pattern Recognition Center, WeChat AI, Tencent
