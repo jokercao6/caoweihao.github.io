@@ -18,25 +18,29 @@
   
       modal.classList.add("is-open");
       modal.setAttribute("aria-hidden", "false");
-      document.body.style.overflow = "hidden";
+    //   document.body.style.overflow = "hidden";
+      document.body.classList.add("modal-open");
+      document.documentElement.classList.add("modal-open");
   
       const closeBtn = modal.querySelector(".paper-modal__close");
       closeBtn && closeBtn.focus();
     }
   
     function closeModal() {
-      modal.classList.remove("is-open");
-      modal.setAttribute("aria-hidden", "true");
-      document.body.style.overflow = "";
-  
-      // 等动画结束再清空，避免“闪一下”
-      window.setTimeout(() => {
-        img.src = "";
-        title.textContent = "";
-        venue.textContent = "";
-        abs.textContent = "";
-        if (lastFocus && lastFocus.focus) lastFocus.focus();
-      }, 280);
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+      
+        // 🔥 正确移除滚动锁
+        document.body.classList.remove("modal-open");
+        document.documentElement.classList.remove("modal-open");
+      
+        window.setTimeout(() => {
+          img.src = "";
+          title.textContent = "";
+          venue.textContent = "";
+          abs.textContent = "";
+          if (lastFocus && lastFocus.focus) lastFocus.focus();
+        }, 280);
     }
   
     document.addEventListener("click", (e) => {
