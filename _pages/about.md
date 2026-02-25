@@ -36,9 +36,11 @@ My long-term research goal is to develop robust and scalable open-world percepti
 ## 🏃‍♀️ Open-Vocabulary Object Detection
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div>
 <!-- <img src='images/hsadino.png' alt="sym" width="100%"> -->
+<!-- alt="HSA-DINO" -->
 <img
   src="images/hsadino.png"
-  alt="HSA-DINO"
+  alt="sym" 
+  width="100%"
   class="paper-thumb js-paper-modal"
   data-full="images/hsadino.png"
   data-title="Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection"
