@@ -71,7 +71,7 @@
 .profile_box{
   @include breakpoint($large) {
     display: block;
-    margin-left: -15px;
+    // margin-left: -15px;
   }
   display: flex;
   justify-content: flex-start;
