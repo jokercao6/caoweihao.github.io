@@ -118,3 +118,9 @@
   html.modal-open {
     overflow: hidden;
   }
+
+.sidebar {
+  @include breakpoint($large) {
+    margin-left: -24px;   /* 你可以试 16/24/32 */
+  }
+}
